@@ -1,0 +1,20 @@
+local args = {
+	"restaurant"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("ServiceRemotes"):WaitForChild("DiscoveryService"):WaitForChild("RF"):WaitForChild("Discover"):InvokeServer(unpack(args))
+then
+local args = {
+	"overlook"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("ServiceRemotes"):WaitForChild("DiscoveryService"):WaitForChild("RF"):WaitForChild("Discover"):InvokeServer(unpack(args))
+then
+local args = {
+	"pond"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("ServiceRemotes"):WaitForChild("DiscoveryService"):WaitForChild("RF"):WaitForChild("Discover"):InvokeServer(unpack(args))
+then
+local args = {
+	"dock"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("ServiceRemotes"):WaitForChild("DiscoveryService"):WaitForChild("RF"):WaitForChild("Discover"):InvokeServer(unpack(args))
+print("Done fugly ho")
